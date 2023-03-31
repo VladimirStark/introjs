@@ -1,11 +1,12 @@
 // @ts-check
+
 // window.onload = function() {
 // console.log('Hello world');
 // const h1 = document.querySelector(h1)
 // console.log('script 1')
 // alert('Hello there');
 // }
-let user ='John'
+let user = 'John'
 let user2
 // ...
 user2 = 'Jane'
@@ -15,26 +16,30 @@ const user3 = 'Bob'
 var user4
 user4 = 'Shannon'
 
-let string = 'Hello world'
-let num = 34.3456656
-let boolean = true // false
-let Null = null
-let Undefined = undefined
-let symbol = Symbol('First symbol')
+// let string = 'Hello world'
+// let num = 34.3456656
+// let boolean = true // false
+// let Null = null
+// let Undefined = undefined
+// let symbol = Symbol('First symbol')
 
 // if (!(string.length == 10)) {
-if (num > 20 ) {
-    console.log('The num is more than 20')
-} else if (num > 10) {
-    console.log('The num is more than 10')
-} else {
-    console.log('The num is lss than 10')
-}
 
-let age = 25
-let gender =  'Male'
+// if (num > 20) {
+//     console.log('The num is more than 20')
+// } else if (num > 10) {
+//     console.log('The num is more than 10')
+// } else {
+//     console.log('The num is lss than 10')
+// }
 
-let prefix // boy| Mr. | girl | Mrs/
+// let age = 15
+// < 16 boy
+// 16 < 21 young man
+// 21 < Mr
+// let gender = 'Female'
+
+// let prefix // boy| Mr. | girl | Mrs/
 
 // if ((age > 18) && (gender == 'Male')) {
 //     prefix = 'Mr.'
@@ -46,18 +51,133 @@ let prefix // boy| Mr. | girl | Mrs/
 //     prefix = 'girl'
 //}
 
-if (age > 18) {
-    if (gender == 'Male') {
-        prefix = 'Mr.'
-    } else {
-        prefix = 'Mrs.'
-    }
-} else {
-    if (gender == 'Male') {
-        prefix = 'boy'
-    } else {
-        prefix = 'girl'
-    }
-}
-console.log(prefix);
+// if (age > 18) {
+//     if (gender == 'Male') {
+//         prefix = 'Mr.'
+//     } else {
+//         prefix = 'Mrs.'
+//     }
+// } else {
+//     if (gender == 'Male') {
+//         prefix = 'boy'
+//     } else {
+//         prefix = 'girl'
+//     }
+// }
 
+// prefix = (age > 18)
+//     ? (gender == 'Male') ? 'Mr.' : 'Mrs.'
+//     : (gender == 'Male') ? 'boy' : 'girl'
+// console.log(prefix);
+
+// let price
+// let city = 'Moscow'
+
+// switch (city) {
+//     case 'Moscow':
+//         price = 11
+//         break;
+//     case 'Berlin':
+//         price = 9
+//         break;
+
+//     default:
+//         price = 15
+//         break;
+// }
+// console.log('Price: $' + price);
+
+// console.log(`Price (${city}): $ ${price}`);
+
+// let counter = 0
+// while (counter < 11) {
+//     console.log(counter);
+//     counter++
+// }
+
+// for(let i = 0; i < 11; i++) {
+//     console.log(i);
+// }
+
+
+// let numOfPersons = 26 // 1 2 3 ... 26
+// let numofChild = 0
+// let numofAdult = 0
+// let age = 1
+// // while (age <= numOfPersons) {
+// //     if (age < 18) {
+// //         numofChild++
+// //     } else {
+// //         numofAdult++
+// //     }
+// //     age++
+// // }
+
+// // for + if
+// for (let age = 1; age <+ numOfPersons; age++) {
+//     if (age < 19) {
+//         numofChild++
+//     } else {
+//         numofAdult++
+//     }
+// }
+// // Cyrcle
+// console.log('Num of Child: ' + numofChild);
+// console.log('Num of Adult: ' + numofAdult);
+
+// let numOfChild = 0
+// let numOfAdult = 0
+// let arrayofAge = [13, 12, 7, 28, 45, 63, 2]
+// for (let i = 0; i < arrayofAge.length; i++) {
+// let age = arrayofAge[i]
+// if (age < 18) {
+//     numOfChild++
+// } else {
+//     numOfAdult++
+// }
+// }
+
+// console.log('Num of Child: ' + numOfChild);
+// console.log('Num of Adult: ' + numOfAdult);
+
+// let array = [1, 2, 3, 4, 5]
+// array.push(6)
+// array.push(7)
+// for (let  index = 0; index < array.length; index++) {
+//     array[index] = array[index] * 2
+// }
+// console.log(array);
+
+// let arrayOfAge = []
+// Math.floor(Math.random() * 29 +1)
+// Add to array 10 random integer numbers
+// for (let i = 0; i < 10; i++) {
+//     let random = Math.floor(Math.random() * 29 +1)
+//     arrayOfAge.push(random)
+// }
+// console.log(arrayOfAge);
+// // Filter by age
+// let filteredAdultArr = []
+// for (let i = 0; i <arrayOfAge.length; i++) {
+//     let age = arrayOfAge[i]
+//     if (age > 17) {
+//         filteredAdultArr.push(age)
+//     }
+// }
+// console.log(filteredAdultArr);
+
+// DZm- home wirk
+// let iriginArr = [1, 2, 3, 4, 5]
+
+
+let arr = [1, 2, 3, 4, 5]
+// arr.forEach(function (value, index) {
+//     // console.log(index + ': ' + value);
+//     arr[index] = value * 5
+// })
+// console.log(arr);
+let newArr = arr.map(function (value, index) {
+    return value * 5
+})
+console.log(arr)
+console.log(newArr)
