@@ -6,15 +6,15 @@
 // console.log('script 1')
 // alert('Hello there');
 // }
-let user = 'John'
-let user2
+// let user = 'John'
+// let user2
 // ...
-user2 = 'Jane'
+// user2 = 'Jane'
 
-const user3 = 'Bob'
+// const user3 = 'Bob'
 // user3 = 'Alice'
-var user4
-user4 = 'Shannon'
+// var user4
+// user4 = 'Shannon'
 
 // let string = 'Hello world'
 // let num = 34.3456656
@@ -167,8 +167,8 @@ user4 = 'Shannon'
 // console.log(filteredAdultArr);
 
 // DZm- home wirk
-// let iriginArr = [1, 2, 3, 4, 5]
-
+let iriginArr = [1, 2, 3, 4, 5]
+// for ()
 
 let arr = [1, 2, 3, 4, 5]
 // arr.forEach(function (value, index) {
@@ -181,3 +181,54 @@ let newArr = arr.map(function (value, index) {
 })
 console.log(arr)
 console.log(newArr)
+
+console.log(15%2)  
+
+let a = 14
+let b = 14
+let c = 14
+if (a > b && a > c) {
+    console.log(a)
+} else {
+    if (b > a && b > c) {
+    console.log(b)
+    } else {
+        console.log(c) 
+    }
+ }
+
+//  for (let i = 0; i < 10; i++) {
+//     console.log('*' + i)
+//  }
+//  for (let i = 10; i < 26; i++) {
+//     console.log(i + ' ' + i + ".4")
+//  }
+
+//  for (let i = 25; i < 36; i++) {
+//     console.log(i + ' ' + i + ".5" + ' ' + (i-1) + ".8")
+//  }
+
+//  let price = 20.4
+//  for (let i = 1; i < 20; i++) {
+//     console.log('Цена товара ' + i + ' : ' + i*price)
+//  }
+
+// let price = 79
+// for (let i = 1; i < 21; i++) {
+//     console.log('Цена в рублях ' + i + ' : ' + i*price)
+// }
+
+// let num = 7
+// for (let i = 1; i < 10; i++) {
+//     console.log(i + ' * 7 = ' + (7*i))
+// }
+
+//  
+
+let sum = 0
+for( let i = 100; i < 501; i++) {
+    sum = sum + i
+}
+console.log('sum = ' + sum) 
+
+
