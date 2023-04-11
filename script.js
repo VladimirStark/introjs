@@ -166,7 +166,7 @@
 // }
 // console.log(filteredAdultArr);
 
-// DZm- home wirk
+// DZm- home work
 let iriginArr = [1, 2, 3, 4, 5]
 // for ()
 

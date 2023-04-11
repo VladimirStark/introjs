@@ -18,7 +18,7 @@ let user = {
     emaile: 'test@mail.ru',
     age: 33
 } // Object
-varName == [1, 2, 3, 4, 5] // value type = Array
+varName = [1, 2, 3, 4, 5] // value type = Array
 console.log(varName [2])
 
 //Variables

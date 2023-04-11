@@ -54,3 +54,7 @@ if (age <= 17 && gender == 'Female') {
 if (age <= 17 && gender == 'Male') {
     console.log('boy');
 }
+
+const greetingMan = (age > 17) 
+    ? (gender == 'Female') ? 'Mrs.' : 'Mr'
+    : (gender == 'Female') ? 'girl' : 'boy'
