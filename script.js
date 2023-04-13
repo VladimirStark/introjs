@@ -167,35 +167,35 @@
 // console.log(filteredAdultArr);
 
 // DZm- home work
-let iriginArr = [1, 2, 3, 4, 5]
+// let iriginArr = [1, 2, 3, 4, 5]
 // for ()
 
-let arr = [1, 2, 3, 4, 5]
+// let arr = [1, 2, 3, 4, 5]
 // arr.forEach(function (value, index) {
 //     // console.log(index + ': ' + value);
 //     arr[index] = value * 5
 // })
 // console.log(arr);
-let newArr = arr.map(function (value, index) {
-    return value * 5
-})
-console.log(arr)
-console.log(newArr)
+// let newArr = arr.map(function (value, index) {
+//     return value * 5
+// })
+// console.log(arr)
+// console.log(newArr)
 
-console.log(15%2)  
+// console.log(15%2)  
 
-let a = 14
-let b = 14
-let c = 14
-if (a > b && a > c) {
-    console.log(a)
-} else {
-    if (b > a && b > c) {
-    console.log(b)
-    } else {
-        console.log(c) 
-    }
- }
+// let a = 14
+// let b = 14
+// let c = 14
+// if (a > b && a > c) {
+//     console.log(a)
+// } else {
+//     if (b > a && b > c) {
+//     console.log(b)
+//     } else {
+//         console.log(c) 
+//     }
+//  }
 
 //  for (let i = 0; i < 10; i++) {
 //     console.log('*' + i)
@@ -225,10 +225,41 @@ if (a > b && a > c) {
 
 //  
 
-let sum = 0
-for( let i = 100; i < 501; i++) {
-    sum = sum + i
+// let sum = 0
+// for( let i = 100; i < 501; i++) {
+//     sum = sum + i
+// }
+// console.log('sum = ' + sum) 
+
+// let sum = [3, -3, 1, 2]
+
+let arr1 = [1, 2, 3,]
+let sum3 = arr1[0] + arr1[1] + arr1[2]
+console.log(sum3)
+
+let arr3 = [37, 0, 50, 46, 34, 46, 0, 13]
+for(let i = 0; i < 8; i++)  console.log(arr3 [i])
+
+let arr4 = []
+for(let i = 0; i< 12; i++) arr4[i] = Math.random() * 1000
+console.log(arr4)
+
+let arr5 = []
+for(let i = 0; i< 12; i++) {
+    arr5[i] = i+1
+    console.log(arr5 [i])
 }
-console.log('sum = ' + sum) 
+console.log(arr5)
 
+let arr6 = []
+for(let i = 0; i < 20; i++) 
+arr6[i] = 20 - i;  
+for(let i = 0; i < 20; i++) console.log(arr6[i])
+console.log(arr6)
 
+let arr7 = [5, 3, -1, 2]
+for( let i = 0; i < 4; i++)
+{
+    arr7[i] = arr7[i] * 2 
+    console.log(arr7[i])
+}
