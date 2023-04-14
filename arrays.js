@@ -27,3 +27,8 @@ arr.forEach(function(element, index) {
 
  // Reduce analog
  const sum2 = numArray.reduce((acc, el) => acc + el)
+
+ const numsArray2 = [1, 2, 3, 4, 5]
+ // numsArray2[numArray2.length] = 6
+ numsArray2.push(6)
+ // numsArray2 => [1, 2, 3, 4, 5, 6]
